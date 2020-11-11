@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Movie_API.Models
+{
+    public class MovieView
+    {
+        public int MovieId { get; set; }
+        public int WatchDurationMs { get; set; }
+    }
+}
